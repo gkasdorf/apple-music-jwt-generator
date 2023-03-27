@@ -14,11 +14,14 @@
     "generator"
   ],
   "author": "gkasdorf",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "i": "^0.3.7",
     "inquirer": "^8.2.5",
     "jsonwebtoken": "^9.0.0",
     "npm": "^9.6.2"
+  },
+  "bin": {
+    "apple-music-jwt-generator": "index.js"
   }
 }
